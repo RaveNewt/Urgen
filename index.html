@@ -1,0 +1,162 @@
+<html id="home">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <title>Colance-The Indonesia’s Freelance Website</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mynav">
+            <div class="container-fluid">
+              <a class="navbar-brand page-scroll" href="#home"><img src="img/Urgen logo.png" alt="" height="75" width="150"  ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active page-scroll" aria-current="page" href="#home" style="border-bottom: 2px solid orange; margin-right: 40px;">Home</a>
+                  <a class="nav-link page-scroll" href="#about">About Us</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+
+        <!--Isi dalamnya-->
+        <div class="container my-5">
+            <div class="row justify-content-between text1">
+                <div class="col-4">
+                    <h2 class="text-center">Random Password Generator</h2>
+                    <h1 class="mb-3">Generate Your Safer Password</h1>
+                    <h4 class="text-center mb-5">We are here to help you make your safer password with our
+                        random password generator</h4>
+                        <h3 class="mt-2 orange">Default</h3>
+                        <form class="py-2 mb-3 d-flex Password">
+                            <input class="form-control me-2" type="text" value id="Password-generated" placeholder="It will pop out automatically" aria-label="Search">
+                            <button class="btn btn-outline-warning" type="submit"><i class="fas fa-redo-alt"></i></button>
+                        </form>
+                        <h3 class="mt-2 orange">Customized</h3>
+                        <form class="py-2 mb-3 d-flex Password">
+                            <input class="form-control me-2" type="text" value id="Customize" placeholder="It will pop out automatically" aria-label="Search">
+                            <button class="btn btn-outline-warning" type="submit"><i class="fas fa-redo-alt"></i></button>
+                        </form>
+                        <h4 class="mb-3">Please fill the requirements you need</h4>
+                        <form class="py-2 pe-3 me-2 d-flex Password-length">
+                            <input class="form-control me-2" type="text" value id="Customize" aria-label="Search">
+                            <h3 class="mt-2">Password-length</h3>
+                        </form>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Easy to read" id="easy-to-read">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Easy to Read
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Random" id="random" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Random
+                            </label>
+                        </div>
+                </div>
+                <div class="col-4">
+                    <h1>No More <span class="wrap-color">Confused</span> </h1>
+                    <h1 class="mb-3">No More <span class="wrap-color">Forget</span></h1>
+                    <h4 class="mb-3">We would like you to write your email address 
+                        for us to send to you what password
+                        you have made, so you will not lose it when forgot.</h4>
+                        <form class="py-2 mb-3 mt-5 d-flex Password input-group">
+                            <input class="form-control" type="Email" value id="Password-generated" placeholder="Email" aria-label="Search">
+                            <button class="btn btn-warning" type="submit">Done</button>
+                        </form>  
+                    <h4 class="orange mb-3">Make sure to use your active email</h4>  
+                    <h4>You don't need to log in, we will just send it to your 
+                        email account. Thank you for trusting us!</h4>
+                </div>
+            </div>
+        </div>
+        <!--About-->
+        <div class="container about-content1">
+            <h2 class="text-center mb-5 mb-5">Generate your own random passwords</h2>
+            <h3 class="mb-4"> <span class="orange">Security issues</span> are important and major problems in computer systems connected in a network. Data and information are 
+                targets of attacks by irresponsible parties, so it is necessary to maintain the integrity of data and information. One of the
+                things you want to manipulate most often is passwords. A password which is someone's secret password usually can be
+                easily guessed or hacked. As technology advances and algorithms develop, passwords can be made more secure in many
+                ways</h3>
+            <h3 class="mb-4"><span class="orange">Password Generator</span> is a piece of software that creates a randomized custom password for its users. This application
+                helps users produce more robust and more secure passwords for whatever they need to create a password. It also
+                helps them come up with a different random password for each site or service to provide the most security possible.</h3>
+            <h3 class="mb-5">And that's why we are here trying to help solving your problem, providing you with our random password generator. Which
+                is ready, simple and easy to use even without tutorial. <span class="orange">You can open the site wherever and whenever you need it.</span> But, 
+                unfortunately we are only available on the web.</h3>
+        </div>
+        <div class="container mt-5 mt-5 mb-5" id="about">
+            <h2 class="text-center mb-5">Generating All Your Passwords</h2>
+
+        </div>
+        <div class="container about-content2">
+            <div class="row text-center">
+                <div class="col">
+                    <img  class="mb-5" src="img/close.png" alt="" width="80px" height="80px">
+                    <h1>No Log In</h1>
+                    <h3>No need to login or sign up,<br>
+                        your privacy is our priority.</h3>
+                </div>
+                <div class="col">
+                    <img class="mb-5 orange" src="img/smartphone.png" alt="" width="80px" height="80px">
+                    <h1>Saving Password</h1>
+                    <h3>Write your email for us <br>
+                        to send the password <br>
+                                  you made.</h3>
+                </div>
+                <div class="col">
+                    <img class="mb-5" src="img/secure.png" alt="" width="80px" height="80px">
+                    <h1>Strong Password</h1>
+                    <h3> Generating strong random <br>
+                        password with our password <br>
+                                       generator.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row d-flex justify-content-around">
+                <div class="col">
+                    <h1>Why You Need to Build Your Password with 
+                        <br>Our Password Generator</h1>
+                    <h3>Simplify to help you fulfill your need for a strong <br>
+                        password for your account. URG can create a secure <br>
+                        passwords right as you visit our web.</h3>
+                </div>
+                <div class="col-4">
+                    <img src="img/security.jpg" alt="" width="300" height="235">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <div class="col-5 ms-5 order-2 align-items-end">
+                    <h1 class="mb-4">This is the best tips from us</h1>
+                    <h3 class="mb-4"><i class="fas fa-caret-right me-3 orange"></i>Always using a unique password for different <br>
+                        account you create/own.</h3>
+                    <h3 class="mb-4"><i class="fas fa-caret-right me-3 orange"></i>Don't use your personal information to make <br>
+                        your own passwords</h3>
+                    <h3 class="mb-4"><i class="fas fa-caret-right me-3 orange"></i>Make sure your password is at least 8 <br>
+                        characters and countains letters, numbers, <br>
+                        etc.</h3>
+                    <h3 class="mb-4"><i class="fas fa-caret-right me-3 orange"></i>Use random password generator for better <br>
+                        password.</h3>
+
+                </div>
+                <div class="col order-1">
+                    <img src="img/cyber security.jpg" alt="" width="500" height="350">
+                </div>
+            </div>
+            <script src="script.js"></script>
+    </body>
+</html>
